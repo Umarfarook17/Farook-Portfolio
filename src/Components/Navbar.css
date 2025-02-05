@@ -1,0 +1,27 @@
+
+.navbar-container{
+    scroll-behavior: smooth;
+}
+.nav-link:hover{
+    color: #50C878 !important ;
+}
+.nav-link{
+    position: relative !important;
+
+}
+.nav-link::after{
+    content:"" !important;
+    position: absolute !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    width: 0 !important;
+    height: 1.5px !important;
+    background-color: #50C878;
+    transition: .3s ease !important;
+}
+.nav-link:hover::after{
+    width: 100% !important;
+}
+.activate{
+    color: #50C878 !important;
+}

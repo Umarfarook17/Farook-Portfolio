@@ -1,0 +1,28 @@
+/* Styling for individual skill cards */
+.skill-card {
+    background-color: #121212; /* Dark background for the card */
+    color: #ffffff; /* White text */
+    border-radius: 15px; /* Rounded corners */
+    width: 150px; /* Set the width of the card */
+    padding: 20px; /* Padding inside the card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Title inside the card */
+.skill-card h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #ffffff; /* White text for title */
+}
+
+/* Icon/image inside the card */
+.skill-card img {
+    width: 5rem; /* Adjust image size */
+}
+.skill-card img:hover{
+    transform: scale(1.05);
+}

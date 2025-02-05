@@ -1,0 +1,77 @@
+/* Wrapper for image with a subtle zoom and shadow effect */
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 1s ease; /* Smooth transition for scaling */
+}
+
+.image-wrapper:hover {
+    transform: scale(1.05);
+}
+
+/* Background with optional rotation animation */
+.about-background {
+    border: 1px solid;
+    position: relative;
+    background-color: yellow;
+    border-radius: 20% 50%;
+    /* Uncomment the following line to enable rotation animation */
+    /* animation: bgrotation 4s forwards infinite linear; */
+}
+
+/* Keyframe animation for rotating the background */
+@keyframes bgrotation {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    50% {
+        transform: rotateZ(180deg);
+    }
+    75% {
+        transform: rotateZ(270deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+/* Section title styling */
+.section-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #50C878;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Description text styling */
+.description {
+    font-size: 1.2rem;
+    color: white;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+/* Custom list styling */
+.custom-list {
+    list-style: none;
+    padding: 0;
+}
+
+.custom-list li {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Background styling */
+body {
+    background-color: #121212;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
