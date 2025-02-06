@@ -36,13 +36,13 @@ const Home = () => {
                     </ul>
                 </div>
                             <div className='d-flex cv-ic  align-items-center gap-1 gap-md-4'>
-                                <button className='btn btn-outline-success1'><a className='text-decoration-none text-success' href="https://pdfobject.com/pdf/sample.pdf" target='_blank'>Download CV</a></button>
-                                <a className='text-decoration-none icon-link' href="https://github.com" >
+                                <button className='btn btn-outline-success1'><a className='text-decoration-none text-success' href="https://drive.google.com/file/d/1L54nRSzGrLKilImKFawJeQlAYCYr87Za/view?usp=sharing" target='_blank'>Download CV</a></button>
+                                <a className='text-decoration-none icon-link' href="https://github.com/Umarfarook17" >
                                     <i className="fab fa-github fa-2x"></i>
                                 </a>
-                                <a className='text-decoration-none icon-link' href="https://linkedin.com">
+                                {/* <a className='text-decoration-none icon-link' href="https://linkedin.com">
                                     <i className="fab fa-linkedin fa-2x"></i>
-                                </a>
+                                </a> */}
                             </div>
             </div>
 
