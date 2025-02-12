@@ -40,9 +40,9 @@ const Home = () => {
                                 <a className='text-decoration-none icon-link' href="https://github.com/Umarfarook17" >
                                     <i className="fab fa-github fa-2x"></i>
                                 </a>
-                                {/* <a className='text-decoration-none icon-link' href="https://linkedin.com">
+                                <a className='text-decoration-none icon-link' href="https://www.linkedin.com/in/umar-farook17/">
                                     <i className="fab fa-linkedin fa-2x"></i>
-                                </a> */}
+                                </a>
                             </div>
             </div>
 
